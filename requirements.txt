@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # --- Detección de objetos (YOLOv11) ---
 ultralytics==8.3.42
 
@@ -21,3 +22,28 @@ scipy==1.16.2
 protobuf==4.25.3
 requests==2.32.3
 typing_extensions==4.12.2
+=======
+# --- Detección de objetos (YOLOv11) ---
+ultralytics==8.3.42
+
+# --- Reconocimiento facial (MTCNN + InceptionResnetV1) ---
+facenet-pytorch==2.5.3
+torch==2.7.1+cu118
+torchvision==0.22.1+cu118
+torchaudio==2.7.1+cu118
+numpy==2.2.6
+
+# --- Procesamiento de imágenes y video ---
+opencv-python==4.10.0.84
+Pillow==11.3.0
+
+# --- Utilidades generales ---
+matplotlib==3.9.2
+tqdm==4.66.5
+scipy==1.16.2
+
+# --- Recomendado para compatibilidad y rendimiento ---
+protobuf==4.25.3
+requests==2.32.3
+typing_extensions==4.12.2
+>>>>>>> 4b27e37d485027f1f6e30b415afd894c7753512b
